@@ -8,7 +8,7 @@ int main(){
   nota3 = 8.9;
   media = (nota1 + nota2 + nota3)/3;
 
-  printf("a media é: %.2f/n", media);
+  printf("a media é: %.2f\n", media);
 
   return 0;
 
