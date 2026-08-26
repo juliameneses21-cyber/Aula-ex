@@ -10,6 +10,16 @@ int main(){
 
   printf("a media é: %.2f\n", media);
 
+  if(media >=7.0){
+    printf("Aprovado!\n");
+  }
+  else if(media >=4.0){
+    printf("Recuperação!\n");
+  }
+  else {
+  printf("Reprovado!\n");
+}
+
   return 0;
 
 
